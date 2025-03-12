@@ -160,3 +160,79 @@ ul li a{
     text-decoration: none;
 }
 
+
+@media (max-width:912px) {
+    .mysite img{
+    height: 100px;
+    width: 100px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+
+    }
+    .firstdiv h1,h2{
+        position: relative;
+        width: 70%;
+        margin: 20px;
+        top: 10%;
+        
+    }
+}
+
+@media (max-width:540px) {
+    .mysite img{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+
+    }
+    .firstdiv h1,h2{
+        position: relative;
+        width: 70%;
+        margin: 20px;
+        top: 10%;
+        
+    }
+    h1,h2{
+        font-size: small;
+    }
+}
+
+@media (max-width:450px) {
+    .mysite img{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+
+    }
+    .firstdiv h1,h2{
+        position: relative;
+        width: 70%;
+        margin: 5px;
+        top: 10%;
+        
+    }
+    h1,h2{
+        font-size: small;
+    }
+    .seconddiv{
+        font-size: small;
+    }
+    .seconddiv h1,h3,p,h5,ol,ul{
+        position: relative;
+        width: 70%;
+        margin: 10px;
+        top: 5%;
+        left: 10%;
+        margin-right: -15px;
+        line-height: 1.5rem;
+        
+    }
+}
