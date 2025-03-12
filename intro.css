@@ -108,16 +108,55 @@ img{
     padding: 5px;
 } */
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 .mysite{
     display: flex;
     margin: auto;
     justify-content: center;
 }
 .firstdiv{
-    width: 40%;
-    background-color: red;
+    width: 30%;
+    background-color: rgb(32, 241, 9);
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    
 }
 .seconddiv{
-    width: 40%;
-    background-color: green;
+    width: 70%;
+    background-color: rgb(255, 255, 255);
 }
+.mysite img{
+    height: 150px;
+    width: 150px;
+    border-radius:50%;
+    position: absolute;
+    margin-top: 20%;
+    margin-right: 40%;
+}
+.firstdiv h1,h2{
+    position: relative;
+    width: 70%;
+    margin: 20px;
+    top: 30%;
+    
+}
+
+.seconddiv h1,h3,p,h5,ol,ul{
+    position: relative;
+    width: 70%;
+    margin: 20px;
+    top: 10%;
+    left: 10%;
+    line-height: 1.5rem;
+    
+}
+
+ul li a{
+    text-decoration: none;
+}
+
